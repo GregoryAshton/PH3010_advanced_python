@@ -23,5 +23,21 @@ Windows is a great OS. But, for software development it has some quirks which we
 2. Follow the instructions here to set up a WSL development environment: https://docs.microsoft.com/en-us/windows/wsl/setup/environment: **You only need to follow these up to and including "Set Up Windows Terminal"**. You can of course follow the other steps, but these are not neccersery.
 3. You should now have Windows Terminal installed and be able to open a Terminal in "Ubuntu" (Open the Terminal app and hit the dropdown box then click "Ubuntu").
 
-## Step 2: The command line or "terminal"
+## Step 2: The command line
 
+If you are using Ubuntu through WSL and finished step 1, or on Ubuntu (directly) or a Mac, you now need a learn how to use the command line. The command line is a user interface which uses text instead of a mouse.
+
+1. To open the command line search for the "terminal" app on Windows, press `ctrl+alt+t` on Ubuntu, or follow [these instructions](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) for a Mac.
+2. There are many cheat sheets online on the full set of commands available, see [this one for example](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+3. To get you started, take a look at the following video which contains the commands you'll need for this project:
+<p align="center">
+<img src="videos/command_line.gif" alt="sdf" width="600">
+</p>
+
+## Step 3: Python
+
+Python can be installed in a multitude of ways (and remember that if you use WSL the "python" on your windows machine will be different to the python in WSL. I strongly recommend the use of the `anaconda` python package manager (or `conda` for short). `conda` allows you to control and manage multiple *environments* which can contain different versions of python and python packages. This prevents many headaches. 
+
+If you already use anaconda, or you are happy to use an existing installtion. Please ignore these steps. Otherwise, here are the steps to get an anaconda installation and an environment to work in.
+
+1. 
