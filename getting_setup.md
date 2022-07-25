@@ -13,7 +13,7 @@ Of course, many of you will have already been hitting this head on by using your
 This page is a help guide on **how to get a sane environment for software development**. It will apply to people with a Windows, Mac, or Linux device and give an introduction to the [command-line](https://en.wikipedia.org/wiki/Command-line_interface). The guide is not the only way to get a sane environment, and probably not the best. Hopefully, this is a useful nonetheless. 
 
 
-## Step 1: Operating Systems (Windows only)
+## Step 1: Operating System (Windows only)
 
 *The first step applies to Windows only: for Linux and Mac move to step 2.*
 
@@ -23,4 +23,5 @@ Windows is a great OS. But, for software development it has some quirks which we
 2. Follow the instructions here to set up a WSL development environment: https://docs.microsoft.com/en-us/windows/wsl/setup/environment: **You only need to follow these up to and including "Set Up Windows Terminal"**. You can of course follow the other steps, but these are not neccersery.
 3. You should now have Windows Terminal installed and be able to open a Terminal in "Ubuntu" (Open the Terminal app and hit the dropdown box then click "Ubuntu").
 
+## Step 2: The command line or "terminal"
 
