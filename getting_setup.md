@@ -34,10 +34,95 @@ If you are using Ubuntu through WSL and finished step 1, or on Ubuntu (directly)
 <img src="videos/command_line.gif" alt="sdf" width="600">
 </p>
 
-## Step 3: Python
+> **_NOTE:_**  TO copy and paste into the terminal, you may need to use `CTRL+Shift+C` and `CTRL+Shift+V` (these settings can be adjusted).
+
+In the following (and elsewhere in these documents), commands that should be run in the command line (or terminal) are pre-pended by "$", for example
+```console
+$ pwd
+```
+while commands run in a python terminal will use ">>>":
+```python
+>>> print("Hello world")
+```
+Where it is relevant, we will add the conda environment (see below), e.g. `(base) $ pwd`.
+
+## Step 3: Installing conda
 
 Python can be installed in a multitude of ways (and remember that if you use WSL the "python" on your windows machine will be different to the python in WSL. I strongly recommend the use of the `anaconda` python package manager (or `conda` for short). `conda` allows you to control and manage multiple *environments* which can contain different versions of python and python packages. This prevents many headaches. 
 
-If you already use anaconda, or you are happy to use an existing installtion. Please ignore these steps. Otherwise, here are the steps to get an anaconda installation and an environment to work in.
+If you already use anaconda, or you are happy to use an existing installation. Please ignore these steps. Otherwise, here are the steps to get an anaconda installation and an environment to work in (more detailed instructions can be found [here](https://docs.anaconda.com/anaconda/user-guide/getting-started/)).
 
-1. 
+1. Follow the instructions for [installing conda on linux for Ubuntu or (i.e. if you are using WSL)](https://docs.anaconda.com/anaconda/install/linux/) or [installing conda on maxOS](https://docs.anaconda.com/anaconda/install/mac-os/). You should install follow the instructions for python 3+.
+2. After installing conda, you should be able to run
+   ```console
+   $ which conda
+   ```
+   to find out where the program is installed. 
+3. In addition, `conda` will change your command-line prompt adding `(base)`. This tells you what conda environment you are in (see more on this in the next section).
+
+## Step 4: Using conda environments
+
+Now that you have `conda` installed, it is time to set up an environment. For each different project, you should create a new project with a sensible name. By doing so, you avoid installed all the packages for all the projects at once and ending up with version clashes, missing dependencies and all the other headaches.
+
+1. Create a new environment. Here it is named `"PH3010"`, but you can name it as you like and it uses `python3.9`:
+   ```console
+   (base) $ conda create --name PH3010 python=3.9
+   ```
+2. Activate the environment:
+   ```console
+   (PH3010) $ conda activate PH3010
+   ```
+
+## Step 5: Installing packages 
+You can install released python packages using either `conda` or `pip`, typically the package should tell you how this is done (try Googling the package name and "installation"). [Here is an example of the documentation](https://numpy.org/install/) for installing the popular numpy package. **Making sure you have activated the environment you want to use**, the set of commands you would need are:
+```console
+(PH3010) $ conda install numpy
+```
+or
+```console
+(PH3010) $ pip install numpy
+```
+
+## Step 6: Running python programs from the command line
+To run a program from the command line, you simply write a file names `my_program.py` with contents
+```
+print("Hello world")
+```
+Then run it as
+```console
+(PH3010) $ python my_program.py
+```
+An example of this is shown in the video above.
+
+## Step 7: Running jupyter notebooks
+You can start jupyter notebooks from the command line by running
+```console
+(PH3010) $ jupyter notebook
+```
+You should run run this **form the directory you want to store the notebooks in** and **from the conda environment you want to use**. You may also need to install `jupyter` using
+```
+(PH3010) $ pip install notebook
+```
+
+## Step 8: Install git
+In this course, you will need to use the tool `git`. This can be installed on Ubuntu with
+```console
+$ sudo apt install git
+```
+(Note this will ask for your password, when you type it it is blank to protect it. Just type it out and hit enter). You can also install it using `conda`, e.g.:
+```console
+(PH3010) $ conda install git
+```
+
+## Step 8: Getting the notebooks for this course
+Once you have completed all the steps above, you are ready to download the course materials and get started using the following commands:
+1. Clone the course materials: `$ git clone https://github.com/GregoryAshton/PH3010_advanced_python.git`
+2. Enter the directory: `cd PH3010_advanced_python`
+3. Start a jupyter notebook: `jupyter notebook`
+4. Step 3 will open the notebook in a browser. If it does not, copy/paste the links given in the terminal into a browser or read the error message.
+
+Here is a quick video showing the essential steps needed. If these steps don't work for you, revisit the sections above (e.g. if something is not installed).
+
+<p align="center">
+<img src="videos/getting_started.gif" alt="sdf" width="600">
+</p>
