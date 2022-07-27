@@ -1,7 +1,7 @@
 # Getting a sane environment for software development
 
 ## Introduction
-Often when we are taught "programming", we are given a [walled garden or clased platform](https://en.wikipedia.org/wiki/Closed_platform) to work in (e.g. think of [co-calc](https://cocalc.com/) or the lab computers where everything is pre-installed). Walled gardens are great, they are filled with pretty flowers and you rarely find `ModuleNotFoundError`, `TabError: inconsistent use of tabs and spaces in indentation`, or the dreaded `malloc() failed: insufficient memory!`. In a walled garden, the environment you work in is carefully prepared to make it easy to focus on the problem in hand.
+Often when we are taught "programming", we are given a [walled garden or closed platform](https://en.wikipedia.org/wiki/Closed_platform) to work in (e.g. think of [co-calc](https://cocalc.com/) or the lab computers where everything is pre-installed). Walled gardens are great, they are filled with pretty flowers and you rarely find `ModuleNotFoundError`, `TabError: inconsistent use of tabs and spaces in indentation`, or the dreaded `malloc() failed: insufficient memory!`. In a walled garden, the environment you work in is carefully prepared to make it easy to focus on the problem in hand.
 
 Following your degree, wherever your interests take you, you may want to apply the skills that you have learned. The problem is that you can't take a walled garden with you. I mean physically, the lab computers are attached to the desk! Sometimes an employer might give you a new walled garden, but really you need to prepare for the reality of working in open environments and managing the environment yourself.
 
@@ -10,7 +10,7 @@ Of course, many of you will have already been hitting this head on by using your
 <a href=https://xkcd.com/1987/><img src="https://imgs.xkcd.com/comics/python_environment.png" alt="https://xkcd.com/1987" width="300"> </a>
 </p>
 
-This page is a help guide on **how to get a sane environment for software development**. It will apply to people with a Windows, Mac, or Linux device and give an introduction to the [command-line](https://en.wikipedia.org/wiki/Command-line_interface). The guide is not the only way to get a sane environment, and probably not the best. Hopefully, this is a useful nonetheless. 
+This page is a help guide on **how to get a sane environment for software development**. It will apply to people with a Windows, Mac, or Linux device. The guide is not the only way to get a sane environment, and probably not the best. Hopefully, this is a useful nonetheless. 
 
 ## Step 1: Operating System (Windows only)
 
@@ -23,6 +23,9 @@ Windows is a great OS. But, for software development it has some quirks which we
 3. You should now have Windows Terminal installed and be able to open a Terminal in "Ubuntu" (Open the Terminal app and hit the dropdown box then click "Ubuntu").
 
 ## Step 2: Installing conda
+
+> **Note**
+> Before continuing, you may wish to review the [guide to using the command line](using_the_command_line.md)
 
 Python can be installed in a multitude of ways (and remember that if you use WSL the "python" on your windows machine will be different to the python in WSL. I strongly recommend the use of the `anaconda` python package manager (or `conda` for short). `conda` allows you to control and manage multiple *environments* which can contain different versions of python and python packages. This prevents many headaches. 
 
@@ -90,12 +93,22 @@ $ sudo apt install git
 (PH3010) $ conda install git
 ```
 
+## Step 8: Getting a github account
+[Github](https://github.com/) is a website which enables collaborate use of `git` repositories. You'll learn what these means later on, but for now we can say simply that "git is to github what writing in a diary is to twitter". 
+
+In this course, you will need a github account and SSH keys for authentication:
+
+1. Sign up for github for free [here](https://github.com/join)
+2. As a student, you can also take advantage of the [github student developer pack](https://education.github.com/pack) which provides access to free training and software.
+3. Finally, you need to add SSH keys [as described here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+
 ## Step 8: Getting the notebooks for this course
 Once you have completed all the steps above, you are ready to download the course materials and get started using the following commands:
-1. Clone the course materials: `$ git clone https://github.com/GregoryAshton/PH3010_advanced_python.git`
-2. Enter the directory: `cd PH3010_advanced_python`
-3. Start a jupyter notebook: `jupyter notebook`
-4. Step 3 will open the notebook in a browser. If it does not, copy/paste the links given in the terminal into a browser or read the error message.
+1. Clone the course materials: `$ git clone git@github.com:GregoryAshton/PH3010_advanced_python.git`
+2. Enter the directory: `$ cd PH3010_advanced_python`
+3. Install the requirements: `$ pip install -r requirements.txt`
+4. Start a jupyter notebook: `$ jupyter notebook`
+5. Step 3 will open the notebook in a browser. If it does not, copy/paste the links given in the terminal into a browser or read the error message.
 
 Here is a quick video showing the essential steps needed. If these steps don't work for you, revisit the sections above (e.g. if something is not installed).
 
