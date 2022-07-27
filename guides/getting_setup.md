@@ -12,6 +12,9 @@ Of course, many of you will have already been hitting this head on by using your
 
 This page is a help guide on **how to get a sane environment for software development**. It will apply to people with a Windows, Mac, or Linux device. The guide is not the only way to get a sane environment, and probably not the best. Hopefully, this is a useful nonetheless. 
 
+> **Note**
+> If you get stuck at any stage in these steps, please post to the Moodle page for the course requesting help or contact me (gregory.ashton@rhul.ac.uk).
+
 ## Step 1: Operating System (Windows only)
 
 *The first step applies to Windows only: for Linux and Mac move to step 2.*
@@ -102,7 +105,7 @@ In this course, you will need a github account and SSH keys for authentication:
 2. As a student, you can also take advantage of the [github student developer pack](https://education.github.com/pack) which provides access to free training and software.
 3. Finally, you need to add SSH keys [as described here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
-## Step 8: Getting the notebooks for this course
+## Step 9: Getting the notebooks for this course
 Once you have completed all the steps above, you are ready to download the course materials and get started using the following commands:
 1. Clone the course materials: 
 ```
