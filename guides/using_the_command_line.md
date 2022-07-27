@@ -5,7 +5,11 @@ In this course, you will need to learn how to use the command line. The command 
 ## Opening the terminal
 To access the command line, search for the "terminal" app on Windows, press `ctrl+alt+t` on Ubuntu, or follow [these instructions](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) for a Mac. If successfull, this should yield a window with a blinking cursor.
 
-![opening the terminal](videos/opening_terminal.gif)
+Below, we include a gif for the process in Windows:
+
+<p align="center">
+<img src="videos/opening_terminal.gif" alt="sdf" width="500">
+</p>
 
 ## Terminal commands
 
@@ -21,11 +25,16 @@ $ whoami
 > **Note**
 > Throughout these notes, a "$" indicates a command run in the terminal
 
+## Navigating the file system
+
+Perhaps the most important tool is getting around. There are two commands that you should remember `cd` to "change directory" (or "change drive") and "ls" to list the contents of the directory:
+<p align="center">
+<img src="videos/getting_around.gif" alt="sdf" width="500">
+</p>
+
+
 2. There are many cheat sheets online on the full set of commands available, see [this one for example](https://www.git-tower.com/blog/command-line-cheat-sheet/)
 3. To get you started, take a look at the following video which contains the commands you'll need for this project:
-<p align="center">
-<img src="videos/command_line.gif" alt="sdf" width="600">
-</p>
 
 > **Warning**
 > To copy and paste into the terminal, you may need to use `CTRL+Shift+C` and `CTRL+Shift+V` depending on which terminal app you use.
