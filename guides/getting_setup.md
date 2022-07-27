@@ -104,10 +104,23 @@ In this course, you will need a github account and SSH keys for authentication:
 
 ## Step 8: Getting the notebooks for this course
 Once you have completed all the steps above, you are ready to download the course materials and get started using the following commands:
-1. Clone the course materials: `$ git clone git@github.com:GregoryAshton/PH3010_advanced_python.git`
-2. Enter the directory: `$ cd PH3010_advanced_python`
-3. Install the requirements: `$ pip install -r requirements.txt`
-4. Start a jupyter notebook: `$ jupyter notebook`
+1. Clone the course materials: 
+```
+$ git clone git@github.com:GregoryAshton/PH3010_advanced_python.git
+```
+2. Enter the directory:
+```
+$ cd PH3010_advanced_python
+```
+3. Install the requirements:
+```
+$ pip install -r requirements.txt
+```
+Note that `requirements.txt` is a text file containing all the modules used in the notes. You can also install these individually using `pip install numpy` for example. But, the `-r` flag and the file tell `pip` to install everything all at once.
+4. Start a jupyter notebook: 
+```
+$ jupyter notebook
+```
 5. Step 3 will open the notebook in a browser. If it does not, copy/paste the links given in the terminal into a browser or read the error message.
 
 Here is a quick video showing the essential steps needed. If these steps don't work for you, revisit the sections above (e.g. if something is not installed).
