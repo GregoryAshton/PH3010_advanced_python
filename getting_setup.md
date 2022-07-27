@@ -12,7 +12,6 @@ Of course, many of you will have already been hitting this head on by using your
 
 This page is a help guide on **how to get a sane environment for software development**. It will apply to people with a Windows, Mac, or Linux device and give an introduction to the [command-line](https://en.wikipedia.org/wiki/Command-line_interface). The guide is not the only way to get a sane environment, and probably not the best. Hopefully, this is a useful nonetheless. 
 
-
 ## Step 1: Operating System (Windows only)
 
 *The first step applies to Windows only: for Linux and Mac move to step 2.*
@@ -23,30 +22,7 @@ Windows is a great OS. But, for software development it has some quirks which we
 2. Follow the instructions here to set up a WSL development environment: https://docs.microsoft.com/en-us/windows/wsl/setup/environment: **You only need to follow these up to and including "Set Up Windows Terminal"**. You can of course follow the other steps, but these are not neccersery.
 3. You should now have Windows Terminal installed and be able to open a Terminal in "Ubuntu" (Open the Terminal app and hit the dropdown box then click "Ubuntu").
 
-## Step 2: The command line
-
-If you are using Ubuntu through WSL and finished step 1, or on Ubuntu (directly) or a Mac, you now need a learn how to use the command line. The command line is a user interface which uses text instead of a mouse.
-
-1. To open the command line search for the "terminal" app on Windows, press `ctrl+alt+t` on Ubuntu, or follow [these instructions](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) for a Mac.
-2. There are many cheat sheets online on the full set of commands available, see [this one for example](https://www.git-tower.com/blog/command-line-cheat-sheet/)
-3. To get you started, take a look at the following video which contains the commands you'll need for this project:
-<p align="center">
-<img src="videos/command_line.gif" alt="sdf" width="600">
-</p>
-
-> **_NOTE:_**  TO copy and paste into the terminal, you may need to use `CTRL+Shift+C` and `CTRL+Shift+V` (these settings can be adjusted).
-
-In the following (and elsewhere in these documents), commands that should be run in the command line (or terminal) are pre-pended by "$", for example
-```console
-$ pwd
-```
-while commands run in a python terminal will use ">>>":
-```python
->>> print("Hello world")
-```
-Where it is relevant, we will add the conda environment (see below), e.g. `(base) $ pwd`.
-
-## Step 3: Installing conda
+## Step 2: Installing conda
 
 Python can be installed in a multitude of ways (and remember that if you use WSL the "python" on your windows machine will be different to the python in WSL. I strongly recommend the use of the `anaconda` python package manager (or `conda` for short). `conda` allows you to control and manage multiple *environments* which can contain different versions of python and python packages. This prevents many headaches. 
 
@@ -60,7 +36,7 @@ If you already use anaconda, or you are happy to use an existing installation. P
    to find out where the program is installed. 
 3. In addition, `conda` will change your command-line prompt adding `(base)`. This tells you what conda environment you are in (see more on this in the next section).
 
-## Step 4: Using conda environments
+## Step 3: Using conda environments
 
 Now that you have `conda` installed, it is time to set up an environment. For each different project, you should create a new project with a sensible name. By doing so, you avoid installed all the packages for all the projects at once and ending up with version clashes, missing dependencies and all the other headaches.
 
@@ -73,7 +49,7 @@ Now that you have `conda` installed, it is time to set up an environment. For ea
    (PH3010) $ conda activate PH3010
    ```
 
-## Step 5: Installing packages 
+## Step 4: Installing packages 
 You can install released python packages using either `conda` or `pip`, typically the package should tell you how this is done (try Googling the package name and "installation"). [Here is an example of the documentation](https://numpy.org/install/) for installing the popular numpy package. **Making sure you have activated the environment you want to use**, the set of commands you would need are:
 ```console
 (PH3010) $ conda install numpy
@@ -83,7 +59,7 @@ or
 (PH3010) $ pip install numpy
 ```
 
-## Step 6: Running python programs from the command line
+## Step 5: Running python programs from the command line
 To run a program from the command line, you simply write a file names `my_program.py` with contents
 ```
 print("Hello world")
@@ -94,7 +70,7 @@ Then run it as
 ```
 An example of this is shown in the video above.
 
-## Step 7: Running jupyter notebooks
+## Step 6: Running jupyter notebooks
 You can start jupyter notebooks from the command line by running
 ```console
 (PH3010) $ jupyter notebook
@@ -104,7 +80,7 @@ You should run run this **form the directory you want to store the notebooks in*
 (PH3010) $ pip install notebook
 ```
 
-## Step 8: Install git
+## Step 7: Install git
 In this course, you will need to use the tool `git`. This can be installed on Ubuntu with
 ```console
 $ sudo apt install git
