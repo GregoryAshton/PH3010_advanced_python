@@ -2,6 +2,8 @@
 
 This is the repository for the Advanced Python element of PH3010.
 
+Thanks to Rahmah Mackie for help writing these notes and fixing the many confusing explanations.
+
 ## Guides
 **Before the first session of the course**, you should read over the
 *  [Guide to getting set up](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/getting_setup.md).
