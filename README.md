@@ -10,4 +10,4 @@ Thanks to Rahmah Mackie for help writing these notes and fixing the many confusi
 * and [guide to using the command line](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/using_the_command_line.md)
 
 ## Notebooks
-The main content of course the course are contained in a series of notebooks which can be [found here](https://github.com/GregoryAshton/PH3010_advanced_python/tree/main/notebooks). You should start by opening the [overview](./overview.ipynb) notebook.
+The main content of course the course are contained in a series of notebooks which can be [found here](https://github.com/GregoryAshton/PH3010_advanced_python/tree/main/notebooks). You should start by opening the [overview](./notebooks/overview.ipynb) notebook.
