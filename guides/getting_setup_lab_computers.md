@@ -1,4 +1,4 @@
-# Using the RHUL Physics Lab machines
+# Getting setup with the RHUL physics lab computers
 
 The lab computers come pre-installed with all the software needed for this group project. This tutorial will walk you through how to use it.
 
@@ -28,7 +28,7 @@ This will ensure your work is backed up.
 
 ## Final steps
 
-* Okay, now that you no how to access the command line on the lab machines, [please follow Step 8 and Step 9](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/getting_setup.md#step-8-getting-a-github-account) in the getting started guide. You may find it useful to browse the rest of the instructions which show how to get python and git installed on your own machine.
+* Okay, now that you no how to access the command line on the lab machines, [please follow the guide to getting started with PH3010](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/PH3010_getting_started).
 
    
    
