@@ -109,7 +109,7 @@ In this course, you will need a github account and SSH keys for authentication:
 Once you have completed all the steps above, you are ready to download the course materials and get started using the following commands:
 1. Clone the course materials: 
 ```
-$ git clone git@github.com:GregoryAshton/PH3010_advanced_python.git
+$ git clone https://github.com/GregoryAshton/PH3010_advanced_python.git
 ```
 2. Enter the directory:
 ```
