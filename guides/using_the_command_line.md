@@ -3,7 +3,7 @@
 In this course, you will need to learn how to use the command line. The command line is a user interface which uses text instead of a mouse.
 
 ## Opening the terminal
-To access the command line, search for the "terminal" app on Windows, press `ctrl+alt+t` on Ubuntu, or follow [these instructions](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) for a Mac. If successfull, this should yield a window with a blinking cursor.
+To access the command line, search for the "terminal" app on Windows, press `ctrl+alt+t` on Ubuntu, or follow [these instructions](https://support.apple.com/en-gb/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) for a Mac. If successful, this should yield a window with a blinking cursor.
 
 Below, we include a gif for the process in Windows:
 
@@ -95,7 +95,7 @@ Here is a video showing how to run a python script which creates a plot of $\sin
 > **Note**
 > We use the `explore.exe` program to open the file explorer (on Ubuntu this is `nautilus`). You can also open the file directly using an image-viewing program.
 
-Unlike some computer languages, the python language is intepreted, not compiled. This means each line of a script is read, evaluated, then we move on to the next line (this makes it easy to reason about how a program will work!). You can also launch a python intepreter interactively like this:
+Unlike some computer languages, the python language is interpreted, not compiled. This means each line of a script is read, evaluated, then we move on to the next line (this makes it easy to reason about how a program will work!). You can also launch a python interpreter interactively like this:
 
 <p align="center">
 <img src="videos/python.gif" alt="sdf" width="500">
@@ -106,7 +106,7 @@ Unlike some computer languages, the python language is intepreted, not compiled.
 > ```python
 > >>> import numpy as np
 > ```
-> should be run in the python intepreter, not the command line!
+> should be run in the python interpreter, not the command line!
 
 
 ## Useful tips
