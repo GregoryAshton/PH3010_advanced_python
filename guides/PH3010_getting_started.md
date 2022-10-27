@@ -40,7 +40,7 @@ Note that `requirements.txt` is a text file containing all the modules used in t
 
 5. Step 3 will open the notebook in a browser. If it does not, copy/paste the links given in the terminal into a browser or read the error message.
 
-Here is a quick video showing the essential steps needed. If these steps don't work for you, revisit the guides to check that everything is installed.
+Here is a quick video showing the essential steps needed. If these steps don't work for you, revisit the guides to check that everything is installed. Note that, in the video, we also create a `conda` environment: this is highly recommended on a personal laptop, but not the Lab machines. You can find the guide to setting this up [here](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/getting_setup_personal_computer.md#step-3-using-conda-environments).
 
 <p align="center">
 <img src="videos/getting_started.gif" alt="sdf" width="600">
