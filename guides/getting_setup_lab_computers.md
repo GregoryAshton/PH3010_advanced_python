@@ -29,7 +29,7 @@ There are several ways to access it, but here we will the   Anaconda Prompt
 
 ## Final steps
 
-* Okay, now that you no how to access the command line on the lab machines, [please follow the guide to getting started with PH3010](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/PH3010_getting_started).
+* Okay, now that you no how to access the command line on the lab machines, [please follow the guide to getting started with PH3010](https://github.com/GregoryAshton/PH3010_advanced_python/blob/main/guides/PH3010_getting_started.md).
 
    
    
