@@ -7,7 +7,7 @@ While there are Graphical User Interfaces (GUIs) available, here we will learn h
 Both Windows and UNIX systems (i.e. linux or Macs) have a command line, but they are different. Since these machines are Windows machines, we'll be using the Windows command line!
 
 There are several ways to access it, but here we will the   Anaconda Prompt
-1. Launch the Anaconda Prompt: `Start > Anaconda 3 (64 bit) > Anaconda prompt`
+1. Launch the Anaconda Prompt: `Start > Anaconda 3 (64 bit) > Anaconda Powershell prompt`
 2. Check that git is installed, type `git --version` and check that you get a message like this:
    <p>
    <img src="https://user-images.githubusercontent.com/1926734/198074651-74010cc8-392a-451a-a049-9291a279adbe.png" width="300" align="middle" />
